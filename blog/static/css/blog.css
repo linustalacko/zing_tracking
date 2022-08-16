@@ -1,0 +1,15 @@
+* {
+    background-color: #e1f5f2;
+    font-family: 'Catamaran';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+#brand {
+    background: linear-gradient(to right, #020659,#072bf2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
