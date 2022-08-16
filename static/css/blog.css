@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+#brand {
+    background: linear-gradient(to right, #020659,#072bf2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.75vw;
+    padding-right: 10vw;
+}
+
+#header {
+    display: flex;
+    font-family: 'Catamaran';
+    align-items: center;
+    justify-content: center;
+    background-color: #e1f5f2;
+}
+
+#title {
+    padding-right: 40%;
+}
+
+#header-components {
+    font-size: 2vw;
+    display: flex;
+}
+
+#header-components > h3 {
+    padding-left: 25px;
+}
+
+#main-section {
+    font-family: 'Catamaran';
+    text-align: center;
+    padding-bottom: 3vh;
+    background-color: white;
+}
+
+#grabber { 
+    padding-top: 3vh;
+    font-size: 6vw;
+}
+
+#description-text {
+    font-size: 2vw;
+    padding-bottom: 2vh;
+}
+
+#main-section > * {
+    background-color: white;
+}
+
+#first-button-submit {
+    font-size: 3.5vw;
+    border-radius: 10px;
+    padding: 0 1.5vw 0 1.5vw;
+    background-image: linear-gradient(to right, #020659,#072bf2);
+    color: white;
+    font-family: 'Catamaran';
+    border: none;
+    transition: 1s;
+}
+
+#first-button-submit:hover {
+    background-image: linear-gradient(to left, white);
+    cursor: pointer;
+    color: #c7cfce;
+}
+
